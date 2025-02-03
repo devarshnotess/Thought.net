@@ -19,4 +19,4 @@ If you'd like to run this site locally on your machine, follow these steps:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/thought.net.git
+   git clone https://github.com/devarshnotess/thought.net.git
