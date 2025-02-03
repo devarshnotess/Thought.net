@@ -4,7 +4,7 @@ Welcome to the official repository for **Thought.net**, a blog where I share ins
 
 ## 🚀 Live Site
 
-Check out the live version of **Thought.net** at [https://yourusername.github.io/thought.net/](https://devarshnotess.github.io/thought.net/). 
+Check out the live version of **Thought.net** at [https://devarshnotess.github.io/thought.net/](https://devarshnotess.github.io/thought.net/). 
 
 ## 🛠 Technologies Used
 
