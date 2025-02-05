@@ -3,42 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thought.net - Home</title>
+    <title>Dynamic Blog Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Navigation -->
     <nav>
         <div class="logo">Thought.net</div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="auth.html">Login / Register</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/login">Login</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
         <h1>Welcome to Thought.net</h1>
-        <p>Explore insightful blogs on education, science, philosophy, and more.</p>
-        <a href="auth.html" class="btn">Get Started</a>
+        <p>Read the latest posts and insights on education, science, philosophy, and more.</p>
+        <a href="/posts" class="btn">Browse Posts</a>
     </header>
 
-    <!-- Blog Posts Section -->
+    <!-- Blog Posts Section (Dynamic Content) -->
     <section class="blog-container" id="blog-posts">
-        <!-- Blog posts will be loaded here dynamically -->
+        <!-- Dynamic Blog Posts will be inserted here -->
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Thought.net | All Rights Reserved</p>
+        <p>&copy; 2025 Thought.net | All rights reserved</p>
     </footer>
 
-    <!-- Firebase and JavaScript -->
-    <script type="module" src="firebase-config.js"></script>
-    <script type="module" src="scripts/home.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
